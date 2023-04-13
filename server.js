@@ -46,7 +46,7 @@ const typeDefs = gql`
 
   type Query {
     allMovies: [Movie]
-    movie: Movie
+    movie(id: String!): Movie
   }
 `;
 
